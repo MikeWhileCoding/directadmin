@@ -90,6 +90,19 @@ abstract class BaseContext
     }
 
     /**
+     * @param $method
+     * @param $uri
+     * @param $options
+     * @return array
+     * @throws \GuzzleHttp\Exception\GuzzleException
+     */
+    public function rawMultipartRequest($method, $uri, $options)
+    {
+        return $this->connection->rawRequest($method, $uri, $options);
+    }
+
+
+    /**
      * @param bool $verify
      * @return $this
      */
