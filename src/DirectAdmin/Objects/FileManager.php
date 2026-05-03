@@ -119,23 +119,30 @@ class FileManager extends BaseObject
      */
     public function uploadFile( string $path, string $file, string $content ): bool
     {
-        $parameters = [
-            'enctype' => 'multipart/form-data',
-            'action' => 'upload',
-            'path' => $path,
-            'multipart' => [
-                [
-                    'name' => 'FileContents',
-                    'contents' => $content,
-                    'filename' => $file
-                ]
+        $response = $this->getContext()->rawMultipartRequest(
+
+            'POST',
+            '/CMD_API_FILE_MANAGER',
+            [
+                'multipart' => [
+                    [
+                        'name' => 'action',
+                        'contents' => 'upload',
+                    ],
+                    [
+                        'name' => 'path',
+                        'contents' => $path,
+                    ],
+                    [
+                        'name' => 'file1',
+                        'contents' => $content,
+                        'filename' => $file,
+                    ],
+                ],
             ]
-        ];
+        );
 
-        $response = $this->getContext()->invokeApiPost('FILE_MANAGER', $parameters);
-
-        dd( $response );
-        return false;
+        return empty($response['error']) || $response['error'] === '0';
     }
 
     /**
