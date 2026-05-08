@@ -3,7 +3,7 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mvdgeijn/directadmin/main/LICENSE)
 
 > **This is a fork of [mvdgeijn/directadmin](https://github.com/mvdgeijn/directadmin)**, which itself is a fork of the
-> original [omines/directadmin](https://github.com/omines/directadmin). This fork expands the API surface with
+> original [omines/directadmin](https://github.com/omines/directadmin). This fork ([MikeWhileCoding/directadmin](https://github.com/MikeWhileCoding/directadmin)) expands the API surface with
 > actively maintained documentation and additional method implementations as the DirectAdmin API evolves.
 
 This is a PHP client library to manage DirectAdmin control panel servers, originally developed to automate DirectAdmin
@@ -14,12 +14,9 @@ https://mvdgeijn.github.io/directadmin/api/
 
 ## Installation
 
-[![Packagist](https://img.shields.io/packagist/v/mvdgeijn/directadmin.svg)](https://packagist.org/packages/mvdgeijn/directadmin)
-[![Packagist](https://img.shields.io/packagist/vpre/mvdgeijn/directadmin.svg)](https://packagist.org/packages/mvdgeijn/directadmin#dev-master)
-
 The recommended way to install this library is through [Composer](http://getcomposer.org):
 ```bash
-composer require mvdgeijn/directadmin
+composer require mikewhilecoding/directadmin
 ```
 
 If you're not familiar with `composer` follow the installation instructions for
