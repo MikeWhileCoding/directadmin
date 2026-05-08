@@ -10,7 +10,7 @@ This is a PHP client library to manage DirectAdmin control panel servers, origin
 server management where existing implementations were unsupported and incomplete.
 
 API documentation is automatically generated on each push and available at:
-https://mvdgeijn.github.io/directadmin/api/
+https://mikewhilecoding.github.io/directadmin/api/
 
 ## Installation
 
