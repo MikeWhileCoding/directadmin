@@ -1,0 +1,376 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Class Mvdgeijn\DirectAdmin\Utility\Conversion |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Mvdgeijn.html">Mvdgeijn</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Mvdgeijn.DirectAdmin.html">DirectAdmin</a>
+	<ul>
+			<li class="menuGroup-item">
+				<a href="namespace-Mvdgeijn.DirectAdmin.Context.html">Context</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-Mvdgeijn.DirectAdmin.Objects.html">Objects</a>
+			</li>
+			<li class="menuGroup-item active">
+				<a href="namespace-Mvdgeijn.DirectAdmin.Utility.html">Utility</a>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li class="active">
+						<a href="Mvdgeijn.DirectAdmin.Utility.Conversion.html">
+							Conversion
+						</a>
+					</li>
+			</ul>
+		</div>
+
+
+
+
+
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-Mvdgeijn.DirectAdmin.Utility.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="Mvdgeijn.DirectAdmin.Utility.Conversion.html">Class</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Class <a href="namespace-Mvdgeijn.html">Mvdgeijn</a>\<a href="namespace-Mvdgeijn.DirectAdmin.html">DirectAdmin</a>\<a href="namespace-Mvdgeijn.DirectAdmin.Utility.html">Utility</a>\<a href="Mvdgeijn.DirectAdmin.Utility.Conversion.html">Conversion</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+
+
+
+	</table>
+		<div class="classLikeDescription">
+	<div class="description"><p>Static helper class for various conversion operations.</p>
+</div>
+		</div>
+
+
+		<div class="classLikeSection">
+			<b>Located at</b> <a href="source-DirectAdmin.Utility.Conversion.html#18" title="Go to source code">DirectAdmin/Utility/Conversion.php</a><br>
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="onOff" id="_onOff">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Utility.Conversion.html#20-30" title="Go to source code">onOff</a>(<span>mixed <var>$input</var></span>, <span>mixed <var>$default</var> = <span class="php-kw">false</span></span>): string</code>
+
+
+	<div class="expandable-collapsedView">
+		Reduces any input to an ON/OFF value.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Reduces any input to an ON/OFF value.</p>
+</div>
+
+							<h4>Parameters</h4>
+							<table>
+									<tr>
+										<td><var>$input</var>&nbsp;&nbsp;</td>
+										<td><p>Data to convert</p>
+</td>
+									</tr>
+									<tr>
+										<td><var>$default</var>&nbsp;&nbsp;</td>
+										<td><p>Fallback to use if $input is NULL</p>
+</td>
+									</tr>
+							</table>
+
+							<h4>Returns</h4>
+							<div><p>Either ON or OFF</p>
+</div>
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_onOff">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="processUnlimitedOption" id="_processUnlimitedOption">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	protected
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Utility.Conversion.html#32-45" title="Go to source code">processUnlimitedOption</a>(<span>array &amp;<var>$options</var></span>, <span>string <var>$key</var></span>)</code>
+
+
+	<div class="expandable-collapsedView">
+		Expands a single option to its unlimited counterpart if NULL or literal 'unlimited'.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Expands a single option to its unlimited counterpart if NULL or literal 'unlimited'.</p>
+</div>
+
+							<h4>Parameters</h4>
+							<table>
+									<tr>
+										<td><var>$options</var>&nbsp;&nbsp;</td>
+										<td><p>Array of options to process</p>
+</td>
+									</tr>
+									<tr>
+										<td><var>$key</var>&nbsp;&nbsp;</td>
+										<td><p>Key of the item to process</p>
+</td>
+									</tr>
+							</table>
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_processUnlimitedOption">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="processUnlimitedOptions" id="_processUnlimitedOptions">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Utility.Conversion.html#47-60" title="Go to source code">processUnlimitedOptions</a>(<span>array <var>$options</var></span>): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Detects package/domain options that can be unlimited and sets the accordingly.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Detects package/domain options that can be unlimited and sets the accordingly.</p>
+</div>
+
+
+							<h4>Returns</h4>
+							<div><p>Modified array</p>
+</div>
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_processUnlimitedOptions">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="responseToArray" id="_responseToArray">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Utility.Conversion.html#62-75" title="Go to source code">responseToArray</a>(<span>string <var>$data</var></span>): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Processes DirectAdmin style encoded responses into a sane array.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Processes DirectAdmin style encoded responses into a sane array.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_responseToArray">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="sanitizeArray" id="_sanitizeArray">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Utility.Conversion.html#77-89" title="Go to source code">sanitizeArray</a>(<span>mixed <var>$result</var></span>): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Ensures a DA-style response element is wrapped properly as an array.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Ensures a DA-style response element is wrapped properly as an array.</p>
+</div>
+
+							<h4>Parameters</h4>
+							<table>
+									<tr>
+										<td><var>$result</var>&nbsp;&nbsp;</td>
+										<td><p>Messy input</p>
+</td>
+									</tr>
+							</table>
+
+							<h4>Returns</h4>
+							<div><p>Sane output</p>
+</div>
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_sanitizeArray">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="toBool" id="_toBool">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					static
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Utility.Conversion.html#91-101" title="Go to source code">toBool</a>(<span>mixed <var>$value</var></span>, <span>mixed <var>$default</var> = <span class="php-kw">false</span></span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Converts values like ON, YES etc. to proper boolean variables.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Converts values like ON, YES etc. to proper boolean variables.</p>
+</div>
+
+							<h4>Parameters</h4>
+							<table>
+									<tr>
+										<td><var>$value</var>&nbsp;&nbsp;</td>
+										<td><p>Value to be converted</p>
+</td>
+									</tr>
+									<tr>
+										<td><var>$default</var>&nbsp;&nbsp;</td>
+										<td><p>Value to use if $value is NULL</p>
+</td>
+									</tr>
+							</table>
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_toBool">#</a>
+		</td>
+	</tr>
+		</table>
+
+
+
+
+
+
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.4</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>

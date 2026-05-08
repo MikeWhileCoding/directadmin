@@ -1,0 +1,986 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Class Mvdgeijn\DirectAdmin\Context\AdminContext |  API</title>
+	<link rel="stylesheet" href="assets/main.css">
+	<script src="assets/main.js" defer></script>
+</head>
+
+<body class="layout">
+	<div class="layout-aside">
+	<div class="menu">
+			<div class="menu-section">
+				<h3>Namespaces</h3>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Mvdgeijn.html">Mvdgeijn</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Mvdgeijn.DirectAdmin.html">DirectAdmin</a>
+	<ul>
+			<li class="menuGroup-item active">
+				<a href="namespace-Mvdgeijn.DirectAdmin.Context.html">Context</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-Mvdgeijn.DirectAdmin.Objects.html">Objects</a>
+			</li>
+			<li class="menuGroup-item">
+				<a href="namespace-Mvdgeijn.DirectAdmin.Utility.html">Utility</a>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</li>
+	</ul>
+			</div>
+
+		<div class="menu-section">
+			<h3>Classes</h3>
+			<ul>
+					<li class="active">
+						<a href="Mvdgeijn.DirectAdmin.Context.AdminContext.html">
+							AdminContext
+						</a>
+					</li>
+					<li>
+						<a href="Mvdgeijn.DirectAdmin.Context.BaseContext.html">
+							BaseContext
+						</a>
+					</li>
+					<li>
+						<a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html">
+							ResellerContext
+						</a>
+					</li>
+					<li>
+						<a href="Mvdgeijn.DirectAdmin.Context.UserContext.html">
+							UserContext
+						</a>
+					</li>
+			</ul>
+		</div>
+
+
+
+
+
+	</div>
+	</div>
+
+	<div class="layout-main">
+		<div class="layout-navbar">
+	<nav class="navbar">
+		<div class="navbar-left">
+			<ul class="navbar-links">
+				<li>
+					<a href="index.html">Overview</a>
+				</li>
+				<li>
+					
+						<a href="namespace-Mvdgeijn.DirectAdmin.Context.html">Namespace</a>
+					
+				</li>
+<li class="active"><a href="Mvdgeijn.DirectAdmin.Context.AdminContext.html">Class</a></li>				<li>
+					<a href="tree.html">Tree</a>
+				</li>
+			</ul>
+		</div>
+		<div class="navbar-right">
+	<div class="search" data-elements="assets/elements.js">
+		<input class="search-input" placeholder="Search class, function or namespace" autofocus>
+		<ul class="search-results"></ul>
+	</div>
+		</div>
+	</nav>
+		</div>
+
+		<div class="layout-content">
+		<h1>
+			Class <a href="namespace-Mvdgeijn.html">Mvdgeijn</a>\<a href="namespace-Mvdgeijn.DirectAdmin.html">DirectAdmin</a>\<a href="namespace-Mvdgeijn.DirectAdmin.Context.html">Context</a>\<a href="Mvdgeijn.DirectAdmin.Context.AdminContext.html">AdminContext</a>
+		</h1>
+
+
+	<table class="classLikeSignatureTable">
+
+
+
+		<tr>
+			<th><code>extends</code></th>
+			<td>
+<code><a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html"><span title="Mvdgeijn\DirectAdmin\Context\ResellerContext">ResellerContext</span></a></code>			</td>
+		</tr>
+
+	</table>
+		<div class="classLikeDescription">
+	<div class="description"><p>Context for administrator functions.</p>
+</div>
+		</div>
+
+			<div class="classLikeSection">
+	<ul class="classTree">
+	<li>
+<a href="Mvdgeijn.DirectAdmin.Context.BaseContext.html"><span>Mvdgeijn\DirectAdmin\Context\BaseContext</span></a>
+
+
+	<ul class="classTree">
+	<li>
+<a href="Mvdgeijn.DirectAdmin.Context.UserContext.html"><span>Mvdgeijn\DirectAdmin\Context\UserContext</span></a>
+
+
+	<ul class="classTree">
+	<li>
+<a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html"><span>Mvdgeijn\DirectAdmin\Context\ResellerContext</span></a>
+
+
+	<ul class="classTree">
+	<li>
+<b><span class="active">Mvdgeijn\DirectAdmin\Context\AdminContext</span></b>
+
+
+	</li>
+	</ul>
+	</li>
+	</ul>
+	</li>
+	</ul>
+	</li>
+	</ul>
+			</div>
+
+		<div class="classLikeSection">
+			<b>Located at</b> <a href="source-DirectAdmin.Context.AdminContext.html#27" title="Go to source code">DirectAdmin/Context/AdminContext.php</a><br>
+		</div>
+
+
+
+		<table class="table" id="methods">
+			<tr>
+				<th class="table-heading sortable" colspan="3" title="Switch between natural and alphabetical order">Methods</th>
+			</tr>
+
+	<tr class="expandable collapsed" data-order="createAdmin" id="_createAdmin">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Context.AdminContext.html#29-40" title="Go to source code">createAdmin</a>(<span>string <var>$username</var></span>, <span>string <var>$password</var></span>, <span>string <var>$email</var></span>): <a href="Mvdgeijn.DirectAdmin.Objects.Users.Admin.html"><span title="Mvdgeijn\DirectAdmin\Objects\Users\Admin">Admin</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Creates a new Admin level account.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Creates a new Admin level account.</p>
+</div>
+
+
+							<h4>Returns</h4>
+							<div><p>The newly created Admin</p>
+</div>
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_createAdmin">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="createReseller" id="_createReseller">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Context.AdminContext.html#42-61" title="Go to source code">createReseller</a>(
+	<span>string <var>$username</var></span>,
+	<span>string <var>$password</var></span>,
+	<span>string <var>$email</var></span>,
+	<span>string <var>$domain</var></span>,
+	<span>string|array <var>$package</var> = []</span>,
+	<span>string <var>$ip</var> = <span class="php-str">'shared'</span></span>,
+): <a href="Mvdgeijn.DirectAdmin.Objects.Users.Reseller.html"><span title="Mvdgeijn\DirectAdmin\Objects\Users\Reseller">Reseller</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Creates a new Reseller level account.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Creates a new Reseller level account.</p>
+</div>
+
+							<h4>Parameters</h4>
+							<table>
+									<tr>
+										<td><var>$package</var>&nbsp;&nbsp;</td>
+										<td><p>Either a package name or an array of options for custom</p>
+</td>
+									</tr>
+									<tr>
+										<td><var>$ip</var>&nbsp;&nbsp;</td>
+										<td><p>shared, sharedreseller or assign. Defaults to 'shared'</p>
+</td>
+									</tr>
+							</table>
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_createReseller">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="checkIfUserExists" id="_checkIfUserExists">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Context.AdminContext.html#63-68" title="Go to source code">checkIfUserExists</a>(<span><var>$user</var></span>): bool</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_checkIfUserExists">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getAdmins" id="_getAdmins">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Context.AdminContext.html#70-78" title="Go to source code">getAdmins</a>(): <a href="Mvdgeijn.DirectAdmin.Objects.Users.Admin.html"><span title="Mvdgeijn\DirectAdmin\Objects\Users\Admin">Admin</span></a>[]</code>
+
+
+	<div class="expandable-collapsedView">
+		Returns a list of known admins on the server.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Returns a list of known admins on the server.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getAdmins">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getAllAccounts" id="_getAllAccounts">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Context.AdminContext.html#80-90" title="Go to source code">getAllAccounts</a>(): <a href="Mvdgeijn.DirectAdmin.Objects.Users.User.html"><span title="Mvdgeijn\DirectAdmin\Objects\Users\User">User</span></a>[]</code>
+
+
+	<div class="expandable-collapsedView">
+		Returns a full list of all accounts of any type on the server.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Returns a full list of all accounts of any type on the server.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getAllAccounts">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getAllUsers" id="_getAllUsers">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Context.AdminContext.html#92-100" title="Go to source code">getAllUsers</a>(): <a href="Mvdgeijn.DirectAdmin.Objects.Users.User.html"><span title="Mvdgeijn\DirectAdmin\Objects\Users\User">User</span></a>[]</code>
+
+
+	<div class="expandable-collapsedView">
+		Returns a full list of all users on the server, so no resellers or admins.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Returns a full list of all users on the server, so no resellers or admins.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getAllUsers">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getReseller" id="_getReseller">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Context.AdminContext.html#102-112" title="Go to source code">getReseller</a>(<span>string <var>$username</var></span>): null|<a href="Mvdgeijn.DirectAdmin.Objects.Users.Reseller.html"><span title="Mvdgeijn\DirectAdmin\Objects\Users\Reseller">Reseller</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Returns a specific reseller by name, or NULL if there is no reseller by this name.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Returns a specific reseller by name, or NULL if there is no reseller by this name.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getReseller">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getResellers" id="_getResellers">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Context.AdminContext.html#114-122" title="Go to source code">getResellers</a>(): <a href="Mvdgeijn.DirectAdmin.Objects.Users.Reseller.html"><span title="Mvdgeijn\DirectAdmin\Objects\Users\Reseller">Reseller</span></a>[]</code>
+
+
+	<div class="expandable-collapsedView">
+		Returns the list of known resellers.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Returns the list of known resellers.</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getResellers">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getResellerPackages" id="_getResellerPackages">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Context.AdminContext.html#124-132" title="Go to source code">getResellerPackages</a>(): <a href="Mvdgeijn.DirectAdmin.Objects.ResellerPackage.html"><span title="Mvdgeijn\DirectAdmin\Objects\ResellerPackage">ResellerPackage</span></a>[]</code>
+
+
+	<div class="expandable-collapsedView">
+		Returns the list of reseller packages
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Returns the list of reseller packages</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getResellerPackages">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getResellerPackage" id="_getResellerPackage">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Context.AdminContext.html#134-143" title="Go to source code">getResellerPackage</a>(<span>string <var>$package</var></span>): <a href="Mvdgeijn.DirectAdmin.Objects.ResellerPackage.html"><span title="Mvdgeijn\DirectAdmin\Objects\ResellerPackage">ResellerPackage</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Returns the reseller package
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Returns the reseller package</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getResellerPackage">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="setResellerPackage" id="_setResellerPackage">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Context.AdminContext.html#145-155" title="Go to source code">setResellerPackage</a>(<span>string <var>$reseller</var></span>, <span>string <var>$package</var></span>): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Change the reseller package
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Change the reseller package</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_setResellerPackage">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getIPs" id="_getIPs">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Context.AdminContext.html#157-165" title="Go to source code">getIPs</a>(): array</code>
+
+
+	<div class="expandable-collapsedView">
+		Returns the list with all IPs
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Returns the list with all IPs</p>
+</div>
+
+
+							<h4>Returns</h4>
+							<div><p>List of IPs as strings</p>
+</div>
+
+
+		<h4>Overrides</h4>
+		<ul>
+				<li>
+<a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html#_getIPs">						<code>Mvdgeijn\DirectAdmin\Context\ResellerContext::getIPs()</code></a>				</li>
+		</ul>
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getIPs">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="addIP" id="_addIP">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Context.AdminContext.html#167-185" title="Go to source code">addIP</a>(<span>string <var>$ip</var></span>, <span>string <var>$netmask</var></span>): array</code>
+
+
+
+	<div class="expandable-expandedView">
+
+
+
+							<h4>Throws</h4>
+							<table>
+									<tr>
+										<td><code><span>GuzzleHttp\Exception\GuzzleException</span></code>&nbsp;</td>
+										<td></td>
+									</tr>
+							</table>
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_addIP">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="deleteIPs" id="_deleteIPs">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Context.AdminContext.html#187-224" title="Go to source code">deleteIPs</a>(<span>string|array <var>$ips</var></span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Delete the free and unassigned IP('s)
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Delete the free and unassigned IP('s)</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_deleteIPs">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="linkIP" id="_linkIP">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Context.AdminContext.html#226-262" title="Go to source code">linkIP</a>(
+	<span>string <var>$mainIp</var></span>,
+	<span>string <var>$subIp</var></span>,
+	<span>string <var>$dns</var> = <span class="php-str">"yes"</span></span>,
+	<span>bool <var>$apache</var> = <span class="php-kw">true</span></span>,
+	<span>bool <var>$apply</var> = <span class="php-kw">true</span></span>,
+	<span>bool <var>$background</var> = <span class="php-kw">true</span></span>,
+): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Link the subIP to the mainIP
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Link the subIP to the mainIP</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_linkIP">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="unlinkIP" id="_unlinkIP">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Context.AdminContext.html#264-307" title="Go to source code">unlinkIP</a>(<span>string <var>$mainIp</var></span>, <span>string|array <var>$subIps</var></span>, <span>bool <var>$flushDns</var> = <span class="php-kw">true</span></span>, <span>bool <var>$rewriteApache</var> = <span class="php-kw">true</span></span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Unlink IP(s) from the main IP
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Unlink IP(s) from the main IP</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_unlinkIP">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="assignIP" id="_assignIP">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Context.AdminContext.html#310-349" title="Go to source code">assignIP</a>(<span>string <var>$reseller</var></span>, <span>string|array <var>$ips</var></span>): bool</code>
+
+
+	<div class="expandable-collapsedView">
+		Assign IP('s) to reseller
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Assign IP('s) to reseller</p>
+</div>
+
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_assignIP">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getLoadAverage" id="_getLoadAverage">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Context.AdminContext.html#351-359" title="Go to source code">getLoadAverage</a>(): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Fetches the load average metrics from the API.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Fetches the load average metrics from the API.</p>
+</div>
+
+
+							<h4>Returns</h4>
+							<div><p>The load average value retrieved from the API response</p>
+</div>
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getLoadAverage">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getSystemInfo" id="_getSystemInfo">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Context.AdminContext.html#361-369" title="Go to source code">getSystemInfo</a>(): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Fetches the system information from the API.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Fetches the system information from the API.</p>
+</div>
+
+
+							<h4>Returns</h4>
+							<div><p>details system information retrieved from the API response</p>
+</div>
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getSystemInfo">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="getAdminStats" id="_getAdminStats">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Context.AdminContext.html#371-379" title="Go to source code">getAdminStats</a>(): mixed</code>
+
+
+	<div class="expandable-collapsedView">
+		Fetches the administrator statistics from the API.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Fetches the administrator statistics from the API.</p>
+</div>
+
+
+							<h4>Returns</h4>
+							<div><p>details administrator statistics retrieved from the API response</p>
+</div>
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_getAdminStats">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="impersonateAdmin" id="_impersonateAdmin">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Context.AdminContext.html#381-391" title="Go to source code">impersonateAdmin</a>(<span>string <var>$username</var></span>, <span>bool <var>$validate</var> = <span class="php-kw">false</span></span>): <b><span class="active" title="Mvdgeijn\DirectAdmin\Context\AdminContext">AdminContext</span></b></code>
+
+
+	<div class="expandable-collapsedView">
+		Returns a new AdminContext acting as the specified admin.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Returns a new AdminContext acting as the specified admin.</p>
+</div>
+
+							<h4>Parameters</h4>
+							<table>
+									<tr>
+										<td><var>$validate</var>&nbsp;&nbsp;</td>
+										<td><p>Whether to check the admin exists and is an admin</p>
+</td>
+									</tr>
+							</table>
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_impersonateAdmin">#</a>
+		</td>
+	</tr>
+	<tr class="expandable collapsed" data-order="impersonateReseller" id="_impersonateReseller">
+			<td class="table-cell table-shrink">
+				<code class="nowrap">
+					
+	public
+					
+					
+				</code>
+			</td>
+
+			<td class="table-cell">
+				<code><a href="source-DirectAdmin.Context.AdminContext.html#393-403" title="Go to source code">impersonateReseller</a>(<span>string <var>$username</var></span>, <span>bool <var>$validate</var> = <span class="php-kw">false</span></span>): <a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html"><span title="Mvdgeijn\DirectAdmin\Context\ResellerContext">ResellerContext</span></a></code>
+
+
+	<div class="expandable-collapsedView">
+		Returns a new ResellerContext acting as the specified reseller.
+	</div>
+
+	<div class="expandable-expandedView">
+	<div class="description"><p>Returns a new ResellerContext acting as the specified reseller.</p>
+</div>
+
+							<h4>Parameters</h4>
+							<table>
+									<tr>
+										<td><var>$validate</var>&nbsp;&nbsp;</td>
+										<td><p>Whether to check the reseller exists and is a reseller</p>
+</td>
+									</tr>
+							</table>
+
+
+
+	</div>
+			</td>
+		<td class="table-anchor">
+			<a href="#_impersonateReseller">#</a>
+		</td>
+	</tr>
+		</table>
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods inherited from <a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html"><span>Mvdgeijn\DirectAdmin\Context\ResellerContext</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html#_createUser">createUser()</a>, <a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html#_createAccount">createAccount()</a>, <a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html#_deleteAccount">deleteAccount()</a>, <a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html#_deleteAccounts">deleteAccounts()</a>, <a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html#_suspendAccount">suspendAccount()</a>, <a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html#_unsuspendAccount">unsuspendAccount()</a>, <a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html#_suspendAccounts">suspendAccounts()</a>, <a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html#_unsuspendAccounts">unsuspendAccounts()</a>, <a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html#_getUser">getUser()</a>, <a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html#_getUsers">getUsers()</a>, <a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html#_setUserPassword">setUserPassword()</a>, <a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html#_getDomainOwner">getDomainOwner()</a>, <a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html#_getDomainOwners">getDomainOwners()</a>, <a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html#_getStatistics">getStatistics()</a>, <a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html#_getUsage">getUsage()</a>, <a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html#_impersonateUser">impersonateUser()</a>, <a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html#_getUserPackages">getUserPackages()</a>, <a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html#_getUserPackage">getUserPackage()</a>, <a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html#_setUserPackage">setUserPackage()</a>, <a href="Mvdgeijn.DirectAdmin.Context.ResellerContext.html#_setIpConfig">setIpConfig()</a></code>				</td>
+			</tr>
+		</table>
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods inherited from <a href="Mvdgeijn.DirectAdmin.Context.UserContext.html"><span>Mvdgeijn\DirectAdmin\Context\UserContext</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Mvdgeijn.DirectAdmin.Context.UserContext.html#___construct">__construct()</a>, <a href="Mvdgeijn.DirectAdmin.Context.UserContext.html#_getType">getType()</a>, <a href="Mvdgeijn.DirectAdmin.Context.UserContext.html#_getContextUser">getContextUser()</a>, <a href="Mvdgeijn.DirectAdmin.Context.UserContext.html#_getDnsMx">getDnsMx()</a>, <a href="Mvdgeijn.DirectAdmin.Context.UserContext.html#_getDomain">getDomain()</a>, <a href="Mvdgeijn.DirectAdmin.Context.UserContext.html#_getDomains">getDomains()</a>, <a href="Mvdgeijn.DirectAdmin.Context.UserContext.html#_getFileManager">getFileManager()</a>, <a href="Mvdgeijn.DirectAdmin.Context.UserContext.html#_getUsername">getUsername()</a></code>				</td>
+			</tr>
+		</table>
+
+		<table class="table">
+			<tr>
+				<th class="table-heading">Methods inherited from <a href="Mvdgeijn.DirectAdmin.Context.BaseContext.html"><span>Mvdgeijn\DirectAdmin\Context\BaseContext</span></a></th>
+			</tr>
+			<tr>
+				<td class="table-cell">
+<code><a href="Mvdgeijn.DirectAdmin.Context.BaseContext.html#_getConnection">getConnection()</a>, <a href="Mvdgeijn.DirectAdmin.Context.BaseContext.html#_getPassword">getPassword()</a>, <a href="Mvdgeijn.DirectAdmin.Context.BaseContext.html#_invokeApiGet">invokeApiGet()</a>, <a href="Mvdgeijn.DirectAdmin.Context.BaseContext.html#_invokeApiPost">invokeApiPost()</a>, <a href="Mvdgeijn.DirectAdmin.Context.BaseContext.html#_rawRequest">rawRequest()</a>, <a href="Mvdgeijn.DirectAdmin.Context.BaseContext.html#_rawMultipartRequest">rawMultipartRequest()</a>, <a href="Mvdgeijn.DirectAdmin.Context.BaseContext.html#_setVerify">setVerify()</a></code>				</td>
+			</tr>
+		</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</div>
+
+		<div class="layout-footer">
+			 API documentation generated by <a href="https://www.apigen.org">ApiGen v7.0.0-alpha.4</a>
+		</div>
+	</div>
+
+	<div class="layout-rest">
+		<div class="navbar"></div>
+	</div>
+</body>
+</html>
