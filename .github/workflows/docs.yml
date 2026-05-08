@@ -1,0 +1,32 @@
+name: Generate API Documentation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  apidocs:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Generate API docs with ApiGen
+        run: |
+          docker run --rm \
+            -v ${{ github.workspace }}:/project \
+            -w /project \
+            ghcr.io/apigen/apigen:latest \
+            --output=api \
+            src/
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./api
+          destination_dir: api

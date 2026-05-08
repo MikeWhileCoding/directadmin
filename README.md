@@ -1,16 +1,16 @@
 # DirectAdmin API client
 
-[![Build Status](https://travis-ci.org/omines/directadmin.svg?branch=master)](https://travis-ci.org/mvdgeijn/directadmin)
-[![Coverage Status](https://coveralls.io/repos/omines/directadmin/badge.svg?branch=master&service=github)](https://coveralls.io/github/mvdgeijn/directadmin?branch=main)
-[![Scrutinizer](https://img.shields.io/scrutinizer/g/omines/directadmin.svg)](https://scrutinizer-ci.com/g/mvdgeijn/directadmin/?branch=main)
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/mvdgeijn/directadmin/main/LICENSE)
 
-This is a PHP client library to manage DirectAdmin control panel servers. We simply decided to develop this as we needed
-automation of our own DirectAdmin servers, and the existing implementations were unsupported and incomplete.
+> **This is a fork of [mvdgeijn/directadmin](https://github.com/mvdgeijn/directadmin)**, which itself is a fork of the
+> original [omines/directadmin](https://github.com/omines/directadmin). This fork expands the API surface with
+> actively maintained documentation and additional method implementations as the DirectAdmin API evolves.
 
-21-3-2022: Moved to mvdgeijn/directadmin, as omines/directadmin is abandoned and we needed more API implementations.
+This is a PHP client library to manage DirectAdmin control panel servers, originally developed to automate DirectAdmin
+server management where existing implementations were unsupported and incomplete.
 
-[API documentation for this project is automatically generated on each push](https://mvdgeijn.github.io/directadmin/api/).
+API documentation is automatically generated on each push and available at:
+https://mvdgeijn.github.io/directadmin/api/
 
 ## Installation
 
