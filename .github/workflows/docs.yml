@@ -20,7 +20,7 @@ jobs:
           docker run --rm \
             -v ${{ github.workspace }}:/project \
             -w /project \
-            ghcr.io/apigen/apigen:latest \
+            apigen/apigen:latest \
             --output=api \
             src/
 
