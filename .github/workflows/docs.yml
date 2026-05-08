@@ -17,7 +17,9 @@ jobs:
 
       - name: Generate API docs with ApiGen
         run: |
+          mkdir -p api
           docker run --rm \
+            --user $(id -u):$(id -g) \
             -v ${{ github.workspace }}:/project \
             -w /project \
             apigen/apigen:latest \
